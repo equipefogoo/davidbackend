@@ -1,0 +1,70 @@
+**1.** O que é o Node.js?
+Node.js é um ambiente de tempo de execução (runtime) de código aberto e multiplataforma que permite executar códigos JavaScript no lado do servidor (back-end), fora de um navegador web
+
+**2.** O Node.js usa qual linguagem de programação?
+JavaScript(Node.js)
+
+**3.** O Node.js roda no navegador ou fora dele?
+sim, ele consegue rodar dentro do front-end e fora
+
+**4.** Para que serve o Node.js?
+O Node.js serve para executar JavaScript fora do navegador, principalmente no servidor (back-end). Em vez de o JavaScript ficar só em páginas web, com o Node.js ele vira uma linguagem completa para criar aplicações.
+
+**5.** Qual comando é usado para executar um arquivo Node.js no terminal?
+node nomeDoArquivo.js
+
+
+node app.js
+
+
+**6.** O que é o **npm**?
+O npm (Node Package Manager) é o gerenciador de pacotes do Node.js.
+
+Em outras palavras: ele serve para instalar, atualizar, remover e gerenciar bibliotecas que você usa em projetos JavaScript.
+
+**7.** O que significa a palavra **módulo** no Node.js?
+No Node.js, a palavra módulo significa, de forma simples, um arquivo (ou conjunto de arquivos) que encapsula um pedaço de código para ser reutilizado em outras partes do programa.
+
+**8.** O Node.js é mais usado no **front-end** ou no **back-end**?
+
+é mais usado no back-end
+**9.** O que é o arquivo **package.json**?
+O package.json é o arquivo de configuração principal de um projeto Node.js.
+Ele funciona como a “identidade” do projeto, dizendo ao Node.js e ao npm o que o projeto é, o que ele usa e como ele deve rodar.
+
+
+**10.** O Node.js é gratuito ou pago?
+O Node.js é totalmente gratuito ✅
+
+Ele é open source (código aberto) e pode ser usado sem pagar nada, tanto para:
+
+estudos 📚
+
+projetos pessoais
+
+startups 🚀
+
+empresas grandes 💼
+
+Não existe licença paga para usar o Node.js.
+
+🧠 Por que ele é gratuito?
+
+Porque o Node.js é:
+
+mantido pela comunidade
+
+apoiado por grandes empresas (como OpenJS Foundation)
+
+distribuído sob uma licença open source (MIT)
+
+Isso significa que você pode:
+
+baixar
+
+usar
+
+modificar
+
+distribuir
+sem custo.
