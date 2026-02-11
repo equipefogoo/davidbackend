@@ -1,0 +1,229 @@
+✅ 1. O que é o Node.js?
+
+O Node.js é um ambiente de execução (runtime environment) que permite rodar código JavaScript fora do navegador, como no computador ou em servidores.
+
+📌 Finalidade
+
+Ele é usado principalmente para construir aplicações do lado do servidor, como:
+
+APIs
+
+Sistemas web
+
+Aplicações em tempo real (chat, streaming)
+
+Ferramentas de linha de comando
+
+✅ Por que não é uma linguagem?
+
+Porque o Node.js não é uma linguagem de programação, e sim uma plataforma que executa a linguagem JavaScript.
+
+👉 A linguagem é o JavaScript
+👉 O Node.js é o ambiente que permite executá-lo fora do browser
+
+✅ 2. Diferença entre Node.js e JavaScript no navegador
+
+Aqui vão duas diferenças principais:
+
+1. Ambiente de execução
+
+Navegador: executa JavaScript para páginas web (DOM, eventos, interface)
+
+Node.js: executa JavaScript no servidor (arquivos, rede, banco de dados)
+
+2. Recursos disponíveis
+
+No navegador, você tem acesso a:
+
+document.querySelector()
+window.alert()
+
+
+No Node.js, você tem acesso a:
+
+fs.readFile()     // ler arquivos
+http.createServer() // criar servidor
+
+✅ 3. O que é o V8 Engine?
+
+O V8 Engine é o motor criado pelo Google que executa código JavaScript.
+
+Importância para o Node.js:
+
+O Node.js usa o V8 para transformar JavaScript em código de máquina rapidamente
+
+Isso permite alta performance na execução
+
+📌 Sem o V8, o Node.js não conseguiria rodar JavaScript com tanta velocidade.
+
+✅ 4. O que é I/O não bloqueante?
+
+I/O significa operações de entrada e saída, como:
+
+Ler arquivos
+
+Fazer requisições
+
+Consultar banco de dados
+
+Não bloqueante significa:
+
+O Node.js não para o programa esperando uma operação terminar.
+
+Exemplo:
+
+lerArquivo()
+continuarExecutando()
+
+Por que melhora o desempenho?
+
+Porque ele consegue atender vários usuários ao mesmo tempo sem travar.
+
+Isso é excelente para aplicações web com muitas requisições simultâneas.
+
+✅ 5. O que é o Event Loop?
+
+O Event Loop é o mecanismo que permite ao Node.js executar várias tarefas sem precisar de várias threads.
+
+Como funciona (resumo):
+
+Node recebe uma tarefa (ex: requisição)
+
+Se for algo demorado, ele manda para o sistema resolver
+
+Enquanto isso, continua executando outras coisas
+
+Quando a tarefa termina, ele pega o resultado e executa o callback
+
+📌 Ele é o coração do Node.js e responsável pelo modelo assíncrono.
+
+✅ 6. O que são módulos no Node.js?
+
+Módulos são pedaços de código reutilizáveis que podem ser importados em outros arquivos.
+
+Tipos:
+✅ Módulos internos
+
+Já vêm com o Node.js.
+
+Exemplos:
+
+const fs = require("fs");
+const http = require("http");
+
+✅ Módulos externos
+
+São instalados via npm.
+
+Exemplo:
+
+npm install express
+
+const express = require("express");
+
+✅ Módulos criados pelo desenvolvedor
+
+São arquivos do próprio projeto.
+
+Exemplo:
+
+const meuModulo = require("./meuArquivo.js");
+
+✅ 7. Para que serve o package.json?
+
+O package.json é o arquivo principal de configuração de um projeto Node.js.
+
+Ele pode conter:
+
+Nome e versão do projeto
+
+Lista de dependências instaladas
+
+Scripts de execução
+
+Exemplo:
+
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
+
+✅ 8. O que é o npm?
+
+O npm é o gerenciador de pacotes do Node.js.
+
+Funções:
+
+Instalar bibliotecas externas
+
+Atualizar dependências
+
+Gerenciar projetos
+
+Exemplo:
+
+npm install axios
+
+
+📌 Ele facilita o desenvolvimento ao permitir reutilizar códigos prontos.
+
+✅ 9. O que é uma API REST e como Node.js pode ser usado?
+
+Uma API REST é um sistema que permite comunicação entre aplicações usando HTTP.
+
+Ela usa métodos como:
+
+GET (buscar)
+
+POST (criar)
+
+PUT (atualizar)
+
+DELETE (remover)
+
+Node.js pode criar APIs REST usando frameworks como Express:
+const express = require("express");
+const app = express();
+
+app.get("/usuarios", (req, res) => {
+  res.json(["João", "Maria"]);
+});
+
+app.listen(3000);
+
+
+📌 Muito usado para back-end moderno.
+
+✅ 10. Vantagens e desvantagens do Node.js
+✅ Vantagens
+1. Alta performance
+
+Por causa do V8 e do I/O não bloqueante.
+
+2. Mesmo JavaScript no front e no back
+
+Facilita o trabalho de equipes e projetos full stack.
+
+❌ Desvantagens
+1. Não é ideal para tarefas pesadas de CPU
+
+Ex: processamento de imagens ou cálculos complexos.
+
+2. Código assíncrono pode ficar difícil de manter
+
+Se não usar boas práticas, pode virar um “callback hell”.
+
+✅ Se quiser, posso também:
+
+📌 montar um resumo em uma folha
+📌 criar exercícios de Node.js
+📌 te ensinar Express na prática
+📌 te mostrar como criar uma API completa
+
+É só pedir 😄
