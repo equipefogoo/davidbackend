@@ -29,8 +29,10 @@ Essa operação é chamada também de módulo, e pode ser calculada matematicame
   </script>
 </body>
 </html>
+
 Listagem 1. Exemplo de uso do método Math.abs
 Resultado do método  Math.abs
+
 Figura 1. Resultado do método Math.abs
 Neste exemplo definimos a variável "valor1" como o resultado do método abs que recebeu o valor negativo -1234, em seguida solicitamos através de uma caixa de alerta a exibição do conteúdo da variável valor1 que foi convertido em número positivo.
 
@@ -48,10 +50,12 @@ ACOS: Este método retornará o arco cosseno (em radianos) de um número.
   </script>
 </body>
 </html>
+
 Listagem 2. Método Math.Acos
 Com isso obteremos o resultado da Figura 2.
 
  Resultado do Math.Acos
+
 Figura 2. Resultado do Math.Acos
 ASIN: Este método retorna o arco seno (em radianos) de um valor.
 
@@ -67,10 +71,12 @@ ASIN: Este método retorna o arco seno (em radianos) de um valor.
   </script>
 </body>
 </html>
+
 Listagem 3. Método Math.asin
 O resultado que obteremos é o da Figura 3.
 
 Resultado do Math.asin
+
 Figura 3. Resultado do Math.asin
 CEIL: Este método retorna um inteiro maior ou igual a um número. O resultado deste método é equivalente ao arredondamento de um número. A lógica do arredondamento de um número é que se um número é um valor positivo como 14,6 o resultado do arredondamento será 15, quando o número for um valor negativo, como-14,6 o resultado é -14. Vejamos isso em um exemplo pratico.
 
@@ -86,10 +92,12 @@ CEIL: Este método retorna um inteiro maior ou igual a um número. O resultado d
   </script>
 </body>
 </html>
+
 Listagem 4. Método Math.ceil com número positivo
 Desse modo será arredondado para 15.
 
 Resultado Math.ceil com número positivo
+
 Figura 4. Resultado Math.ceil com número positivo
 <html>
 <head>
@@ -103,10 +111,12 @@ Figura 4. Resultado Math.ceil com número positivo
   </script>
 </body>
 </html>
+
 Listagem 5. Método Math.ceil com número negativo
 Veja que utilizamos o mesmo número do exemplo anterior, só que agora em modo negativo. O arredondamento será para -14, pois o retorno do método ceil é o menor número inteiro mais próximo ao valor superiormente, ou seja, o primeiro valor inteiro maior ou igual ao número informado. No caso, -14 é maior que -14,6.
 
 Resultado de Math.ceil com número negativo
+
 Figura 5. Resultado de Math.ceil com número negativo
 COS: Este método retornará o cosseno (em radianos) de um número.
 
@@ -122,8 +132,10 @@ COS: Este método retornará o cosseno (em radianos) de um número.
   </script>
 </body>
 </html>
+
 Listagem 6. Método Math.cos
 Resultado do Math.cos
+
 Figura 6. Resultado do Math.cos
 EXP: Este método retornará o valor da constante de Euler elevada ao número informado, ou seja, E elevado ao parâmetro.
 
@@ -139,8 +151,10 @@ EXP: Este método retornará o valor da constante de Euler elevada ao número in
   </script>
 </body>
 </html>
+
 Listagem 7. método Math.exp
 Resultado Math.exp
+
 Figura 7. Resultado Math.exp
 FLOOR: Este método retorna o maior inteiro menor ou igual a um número.
 
@@ -158,10 +172,13 @@ FLOOR: Este método retorna o maior inteiro menor ou igual a um número.
   </script>
 </body>
 </html>
+
 Listagem 8. Método Math.floor
 Resultado de Math.floor(100.25)
+
 Figura 8. Resultado de Math.floor(100.25)
 Resultado de Math.floor(-100.25)
+
 Figura 9. Resultado de Math.floor(-100.25)
 LOG: Este método retorna o logaritmo natural de um número (base E).
 
@@ -177,8 +194,10 @@ LOG: Este método retorna o logaritmo natural de um número (base E).
   </script>
 </body>
 </html>
+
 Listagem 9. Método Math.log
 Resultado de Math.log
+
 Figura 10. Resultado de Math.log
 MAX: Este método retorna o maior valor entre dois números.
 
@@ -194,8 +213,10 @@ MAX: Este método retorna o maior valor entre dois números.
   </script>
 </body>
 </html>
+
 Listagem 10. Método Math.max
 Resultado Math.max
+
 Figura 11. Resultado Math.max
 MIN: Este método retorna o menor valor entre dois números.
 
@@ -211,8 +232,10 @@ MIN: Este método retorna o menor valor entre dois números.
   </script>
 </body>
 </html>
+
 Listagem 11. Método Math.min
 Resultado Math.min
+
 Figura 12. Resultado Math.min
 POW (base, expoente): Este método retorna a base elevada à potência do expoente. Por exemplo, 2 elevado a décima potência é 1024.
 
@@ -228,8 +251,10 @@ POW (base, expoente): Este método retorna a base elevada à potência do expoen
   </script>
 </body>
 </html>
+
 Listagem 12. Método Math.pow
 Resultado Math.pow
+
 Figura 13. Resultado Math.pow
 RANDOM: Este método retorna um número aleatório entre 0 e 1 com até 15 dígitos. Este número aleatório é definido através do relógio do computador.
 
@@ -244,8 +269,10 @@ RANDOM: Este método retorna um número aleatório entre 0 e 1 com até 15 dígi
   </script>
 </body>
 </html>
+
 Listagem 13. Método Math.random
 Resultado Math.random
+
 Figura 14. Resultado Math.random
 ROUND: Com este método é possível arredondar um valor. O arredondamento segue a regra de arredondamento que vimos anteriormente.
 
@@ -261,8 +288,10 @@ ROUND: Com este método é possível arredondar um valor. O arredondamento segue
   </script>
 </body>
 </html>
+
 Listagem 14. Método Math.round
 Resultado de Math.round
+
 Figura 15. Resultado de Math.round
 SIN: Este método retorna o seno de um número.
 
@@ -278,8 +307,10 @@ SIN: Este método retorna o seno de um número.
   </script>
 </body>
 </html>
+
 Listagem 15. Método Math.sin
 Resultado de Math.sin
+
 Figura 16. Resultado de Math.sin
 SQRT: Retorna a raiz quadrada de um número.
 
@@ -295,8 +326,10 @@ SQRT: Retorna a raiz quadrada de um número.
   </script>
 </body>
 </html>
+
 Listagem 16. Método Math.sqrt
 Resultado de Math.sqrt
+
 Figura 17. Resultado de Math.sqrt
 TAN: Retorna a tangente de um número, que é equivalente a divisão do seno pelo cosseno deste mesmo valor.
 
@@ -312,7 +345,9 @@ TAN: Retorna a tangente de um número, que é equivalente a divisão do seno pel
   </script>
 </body>
 </html>
+
 Listagem 17. Método Math.tan
+
 CONCLUSÃO
 Nesse artigo tivemos como objetivo conhecer brevemente os métodos do objeto Math da linguagem JavaScript. Espero que o tema tenha sido de agrado de todos os leitores.
 
