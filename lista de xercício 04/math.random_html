@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Programa que retorna o valor absoluto de um número</title>
+</head>
+Autor: Seu nome
+
+
+<body>
+  <script>
+    alert (Math.random ());
+  </script>
+</body>
+</html>
