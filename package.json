@@ -1,0 +1,16 @@
+{
+    "name ": "meu projeto",
+    "vesion": "1.0.0",
+    "description": "Meu primeiro projeto",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "build": "webpack --mode production"
+    },
+    "dependemcies": {
+        "react": "^18.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0"
+    }
+}
